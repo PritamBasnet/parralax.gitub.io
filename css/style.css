@@ -1,0 +1,84 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-parallax
+{
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+}
+.Parallax-World
+{
+    height: 100%;
+    width: 100%;
+    background: url(../image/para1.jpg) fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Parallax-World2
+{
+    height: 100%;
+    width: 100%;
+    background: url(../image/para2.jpg) fixed no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Parallax-World3
+{
+    height: 100%;
+    width: 100%;
+    background: url(../image/para3.jpg) fixed no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Heading-Txt
+{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.btn
+{
+    height: 45px;
+    width: 170px;
+    border-radius: 40px 40px 0px 40px;
+    border: none;
+    color: white;
+}
+.Button-Continer
+{
+    display: flex;
+    padding-top: 30px;
+    gap: 15px;
+}
+.btn1
+{
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+}
+.btn2
+{
+    border: 1px solid cornflowerblue;
+    background-color: transparent;
+}
